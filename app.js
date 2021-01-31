@@ -39,3 +39,5 @@ function lowerCase(){
     var lower = a.toLowerCase();
     document.getElementById("paragraph").innerHTML = lower;
 }
+
+
