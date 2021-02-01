@@ -7,3 +7,14 @@ function questionOne(){
     console.log(a)
 }
 
+function questionTwo(){
+    var input = prompt("Enter word: ");
+
+    if(input.toLowerCase().split("").reverse().join("")==input.toLowerCase()){
+        alert(input+" is a palindrome");
+    }
+    else{
+        alert(input+" is a not a palindrome");
+
+    }
+}
