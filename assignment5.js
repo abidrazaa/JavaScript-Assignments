@@ -60,3 +60,36 @@ function questionFive(){
     }
     console.log(matrix);
 }
+
+
+function questionSix(){
+    var a = [1,2,3,4,5]
+    var gapCounter = 1
+    for(i=a.length;i>0;i--){
+        var n = a.join("")
+        a.pop();
+        
+        console.log(n+" ".repeat(gapCounter) + "*".repeat(i))
+        gapCounter+=1;
+
+    }
+}
+
+
+function questionEight(){
+    var firstOperand = prompt("Enter first number: ")
+    var secondOperand = prompt("Enter second number: ")
+    var operator = prompt("Enter Operator: ")
+    function process(firstOperand,secondOperand,operator){
+        if(operator == "+"){
+            console.log(parseInt(firstOperand) + parseInt(secondOperand))
+        }else if(operator == "-"){
+            console.log(parseInt(firstOperand) - parseInt(secondOperand))
+        }else if(operator == "*"){
+            console.log(parseInt(firstOperand) * parseInt(secondOperand))
+        }else if(operator == "/"){
+            console.log(parseInt(firstOperand) / parseInt(secondOperand))
+        }
+    }
+    process(firstOperand,secondOperand,operator);
+}
