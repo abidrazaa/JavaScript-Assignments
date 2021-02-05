@@ -93,3 +93,25 @@ function questionEight(){
     }
     process(firstOperand,secondOperand,operator);
 }
+
+function questionNine(){
+    var firstName = prompt("Enter first name:")
+    var lastName = prompt("Enter last name:")
+    var rollNo = prompt("Enter Roll number:")
+    var className = prompt("Enter Class name:")
+    var midScore = prompt("Enter mid score:")
+    var finalScore = prompt("Enter final score:")
+    var classRole = prompt("Enter Class role:")
+
+    var studentData = {"firstName":firstName,"lastName":lastName,"rollNo":rollNo, "className":className,
+                    "midScore":midScore, "finalScore":finalScore, "classRole":classRole}
+                
+    console.log(studentData)
+    return studentData;
+}
+
+function questionTen(){
+    var studentData = questionNine();
+    var name = studentData["firstName"]+studentData["lastName"];
+    console.log("Full name is : ",name);
+}
