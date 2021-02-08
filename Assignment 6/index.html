@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="stopwatch.js"></script>
+</head>
+<body bgcolor="black">
+    <center>
+        <h1 id="time">Stop Watch</h1>
+
+        <table>
+            <tr class="headings">
+                <td>Hours</td>
+                <td>Minutes</td>
+                <td>Seconds</td>
+            </tr>
+            <tr class="content">
+                <td id = "hours">0:</td>
+                <td id = "minutes">0:</td>
+                <td id = "seconds">0</td>
+            </tr>
+        </table>
+
+        <button class="button" onclick="startWatch()"> 
+            start
+        </button>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <button class="button" onclick="reset()">
+            Reset
+        </button>
+    </center>
+</body>
+</html>
