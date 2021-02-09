@@ -27,8 +27,8 @@ function startTimer(){
 }
 function printTime(){
 
-    document.getElementById("hours").innerHTML = hours + ":";
-    document.getElementById("minutes").innerHTML = minutes+ ":"; 
+    document.getElementById("hours").innerHTML = hours ;
+    document.getElementById("minutes").innerHTML = minutes ; 
     document.getElementById("seconds").innerHTML = seconds;
 }
 

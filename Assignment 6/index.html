@@ -12,19 +12,20 @@
 <body bgcolor="black">
     <center>
         <h1 id="time">Stop Watch</h1>
-
+        <!-- <div class="stopwatch"> -->
         <table>
             <tr class="headings">
-                <td>Hours</td>
-                <td>Minutes</td>
-                <td>Seconds</td>
+                <th id = "hoursH" style="width: 33%;">Hours</th>
+                <th id = "minutesH" style="width: 33%;">Minutes</th>
+                <th id = "secondsH" style="width: 33%;">Seconds</th>
             </tr>
             <tr class="content">
-                <td id = "hours">0:</td>
-                <td id = "minutes">0:</td>
+                <td id = "hours">0</td>
+                <td id = "minutes">0</td>
                 <td id = "seconds">0</td>
             </tr>
         </table>
+        <!-- </div> -->
 
         <button class="button" onclick="startWatch()"> 
             start
