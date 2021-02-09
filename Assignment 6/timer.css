@@ -1,0 +1,94 @@
+body{
+    /* margin: 10%; */
+}
+
+.button{
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(35, 36, 34);
+    border-color: white;
+    font-size: 30px;
+    margin-top:20px ;
+    font-family: "digital";
+
+}
+
+/* .stopwatch{
+    background-color: brown;
+    /* color: cadetblue; */
+    /* margin: 0px 200px 20px 200px; */
+
+
+td{
+    padding: 0px 10px 0px 10px;
+}
+
+@font-face{
+    font-family: 'digital';
+    src: url(Fonts/digital.TTF);
+}
+
+
+
+.button{
+    color: white;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(35, 36, 34);
+    border-color: white;
+    font-size: 30px;
+    margin-top:20px ;
+    font-family: "digital";
+
+}
+
+#time{
+    color: rgb(15, 231, 177);
+    font-size: 100px;
+    font-family: "digital";
+    border-style: dashed;
+    border-color: rgb(62, 63, 63);
+    /* border-style: dotted; */
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 40px;
+    padding: 30px;
+    /* font-family: "digital"; */
+
+}
+
+table{
+    border: brown;
+    /* background-color: rgb(170, 173, 175); */
+    padding: 20px;
+    /* border-style: dashed; */
+}
+.headings{
+    font-family: "digital";
+
+    font-size: 20px;
+    /* align-content: center; */
+    text-align: center;
+    align-items: center;
+    color:rgb(0, 2, 0);
+    background-color: rgb(201, 200, 200);
+    padding: 100px;
+}
+
+.content{
+    font-size: 100px;
+    font-family: "digital";
+
+    /* align-content: center; */
+    text-align: center;
+    align-items: center;
+    color:white;
+    background-color: rgb(54, 54, 54);
+
+
+}
+/* .hoursH{
+    background-color: chartreuse;
+    color: coral;
+} */
