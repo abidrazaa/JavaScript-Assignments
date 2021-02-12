@@ -2,6 +2,30 @@ body{
     background-color: grey;
 }
 
+.auto{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    padding: 7px;
+}
+
+.redBtn{
+    color: honeydew;
+    background-color: red;
+    padding: 7px;
+}
+
+.yellowBtn{
+    color: black;
+    background-color: yellow;
+    padding: 7px;
+}
+
+.greenBtn{
+    color: honeydew;
+    background-color: green;
+    padding: 7px;
+}
+
 .signal{
     /* border: chartreuse; */
     /* padding: 45px; */
