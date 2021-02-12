@@ -1,0 +1,34 @@
+.signal{
+    /* border: chartreuse; */
+    /* padding: 45px; */
+    /* margin: 200px 600px 0px 600px; */
+    margin-top: 70px;
+    width: 60px;
+    background-color: rgb(63, 62, 62);
+    padding: 20px;
+    /* position: fixed; */
+    /* right: 100px; */
+}
+
+.red{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: red;
+}
+.yellow{
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+}
+.green{
+    margin-top: 10px;
+
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    background-color: green;
+}
