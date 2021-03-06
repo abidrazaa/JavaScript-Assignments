@@ -1,0 +1,1 @@
+// new Date().toLocaleTimeString([] , (hour12 : true , hour:'2-digit' , minute : '2-digit'));

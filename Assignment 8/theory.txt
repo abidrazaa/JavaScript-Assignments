@@ -1,0 +1,10 @@
+ES6 features:
+    arrow function
+    one liner functions
+    premitive
+    non premitive
+    spread operators
+
+
+Var vs Let vs Const
+
